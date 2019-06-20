@@ -6,13 +6,13 @@ var Celestial = {
   data: []
 };
 
-var ANIMDISTANCE = 0.035,  // Rotation animation threshold, ~2deg in radians
-    ANIMSCALE = 1.4,       // Zoom animation threshold, scale factor
-    ANIMINTERVAL_R = 2000, // Rotation duration scale in ms
-    ANIMINTERVAL_P = 2500, // Projection duration in ms
-    ANIMINTERVAL_Z = 1500, // Zoom duration scale in ms
-    zoomextent = 10,       // Default maximum extent of zoom (max/min)
-    zoomlevel = 1;         // Default zoom level, 1 = 100%
+var ANIMDISTANCE = 0,  // Rotation animation threshold, ~2deg in radians
+    ANIMSCALE = 0,       // Zoom animation threshold, scale factor
+    ANIMINTERVAL_R = 0, // Rotation duration scale in ms
+    ANIMINTERVAL_P = 0, // Projection duration in ms
+    ANIMINTERVAL_Z = 0, // Zoom duration scale in ms
+    zoomextent = 0,       // Default maximum extent of zoom (max/min)
+    zoomlevel = 0;         // Default zoom level, 1 = 100%
 
 var cfg, prjMap, zoom, map, circle;
 
